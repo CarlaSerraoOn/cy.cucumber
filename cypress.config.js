@@ -6,6 +6,8 @@ const { createEsbuildPlugin } = require("@badeball/cypress-cucumber-preprocessor
 
 module.exports = defineConfig({
   e2e: {
+    viewportWidth: 1920,
+    viewportHeight: 1080,
     baseUrl:'https://automationpratice.com.br',
     specPattern: "**/*.feature",
     setupNodeEvents(on, config) {
