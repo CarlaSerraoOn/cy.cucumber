@@ -2,7 +2,7 @@
 # language: en
 
 Feature: Login
-              Eu como cliente
+    Eu como cliente
     Quero fazer login na aplicação
     Para fazer um pedido de compra
 
