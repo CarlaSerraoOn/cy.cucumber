@@ -1,13 +1,19 @@
-// 3 - Criar ações da page
-
 /// <reference types="cypress" />
 
 export default {
     accessLogin() {
-        cy.visit('/')
-            .get('#top_header')
-
-        cy.get('.fa-user')
-            .click()
-    }
-}
+      cy.visit("/")
+        .get("#top_header")
+  
+      cy.get(".fa-user")
+        .click()
+    },
+  
+    accessRegister() {
+      cy.visit("/")
+        .get("#top_header");
+      cy.get(".fa-lock")
+        .click();
+    },
+  };
+  
